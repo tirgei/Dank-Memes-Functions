@@ -1,6 +1,6 @@
 # Dank Memes Functions
 
-This repo contains the code used for providing additional backend functionality to the [Dank Memes](https://github.com/tirgei/DankMemes) app through [Firebase Functions](https://firebase.google.com/docs/functions). You can find the app in the Play Store - [Dank Memes](https://play.google.com/store/apps/details?id=com.gelostech.dankmemes)
+This repo contains the code used for providing additional backend functionality to the [Dank Memes](https://github.com/tirgei/DankMemes) app through [Firebase Functions](https://firebase.google.com/docs/functions). You can find the app in the Play Store - [Dank Memes](https://play.google.com/store/apps/details?id=com.gelostech.dankmemes).
 
 ## Use Case
 
@@ -40,7 +40,7 @@ foo@bar:~$ cd Dank-Memes-Functions/
 - Initialize the Firebase Project
 
 ```console
-foo@bar:~$ cd firebase init
+foo@bar:~$ firebase init
 ```
 
 Follow the Firebase guide as prompted and in the process selecting `Javascript` as the language to be used. On complete setup Firebase will generate some additional files.
@@ -51,7 +51,7 @@ If during the prompt you did not install the NPM dependencies, proceed and insta
 foo@bar:~$ cd functions/ && npm install
 ```
 
-After all is setup, you can proceed and deploy it to your Firebase project:
+After all is setup, you can proceed and deploy it to your Firebase project from the project root folder:
 
 ```console
 foo@bar:~$ firebase deploy --only functions
