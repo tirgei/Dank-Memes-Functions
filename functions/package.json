@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@google-cloud/storage": "latest",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "base64-stream": "^1.0.0",
     "child-process-promise": "^2.2.1",
     "firebase-admin": "~8.6.0",
